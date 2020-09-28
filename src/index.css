@@ -1,0 +1,60 @@
+html {
+    height: 100%;
+}
+body {
+    height: 100%;
+    padding: 0px;
+    background: linear-gradient(#0099cc, #FFA500);
+    background-repeat: no-repeat;
+    margin: 0;
+}
+header {
+    height: 120px;
+    border: solid #000000 3px;
+    margin: 5px;
+    background: linear-gradient(#0099cc, #FFA500);
+    text-align: center;
+}
+#title {
+    width: 457px;
+	padding: 5px;
+	margin: 25px auto 25px auto;
+	border: solid #000000 3px;
+	background: linear-gradient(#FFA500, #0099cc);
+}
+#board {
+	width: 686px;
+	height: 588px;
+	margin: 50px auto 0px auto;
+	background-color: #ffffff;
+}
+td {
+	width:100px;
+	height:100px;
+	padding: 0px;
+	border-collapse: collapse;
+	background-image:url('./Game/images/imageSmallSquare.png');
+}
+#players {
+	width: 686px;
+	margin: 10px auto 0px auto;
+}
+
+#player1, #player2 {
+	text-align: center;
+	border: solid #000000 3px;
+	font-size: 200%;
+	padding: 5px;
+}
+#player1 {
+	margin-right: 438px;
+}
+#output {
+	position: absolute;
+	top: 50%;
+	left: 5%;
+	border: solid #000000 3px;
+	font-size: 200%;
+	padding: 5px;
+	background-color: #00ff40;
+}
